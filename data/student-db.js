@@ -1,8 +1,8 @@
 module.exports = {
-    getAll: function() {
+    getAll: () => {
         return students
     }
-}
+};
 
 
 
@@ -12,6 +12,7 @@ const students = [
     {student: 'Patrick'},
     {student: 'Erika'},
     {student: 'LooLoo'},
-  ]
+  ];
+  
 
   
